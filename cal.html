@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <br>
+
+        <div class="btns">
+           <button onclick="clearBtn('')" id="orangeBtn">C</button>
+           <button onclick="numberToDisplay('()')" class="greenBtn">()</button>
+           <button onclick="numberToDisplay('%')" class="greenBtn">%</button>
+           <button onclick="numberToDisplay('/')" class="greenBtn">/</button>
+           <button onclick="numberToDisplay('7')">7</button>
+           <button onclick="numberToDisplay('8')">8</button>
+           <button onclick="numberToDisplay('9')">9</button>
+           <button onclick="numberToDisplay('*')" class="greenBtn">X</button>
+           <button onclick="numberToDisplay('4')">4</button>
+           <button onclick="numberToDisplay('5')">5</button>
+           <button onclick="numberToDisplay('6')">6</button>
+           <button onclick="numberToDisplay('-')" class="greenBtn">-</button>
+           <button onclick="numberToDisplay('1')">1</button>
+           <button onclick="numberToDisplay('2')">2</button>
+           <button onclick="numberToDisplay('3')">3</button>
+           <button onclick="numberToDisplay('+')" class="greenBtn">+</button>
+           <button onclick="numberToDisplay('+/-')">+/-</button>
+           <button onclick="numberToDisplay('0')">0</button>
+           <button onclick="numberToDisplay('.')">.</button>
+           <button onclick="resultToDisplay('=')" class="greenBtn">=</button>
+            
+         
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="cal.js"></script>
+</body>
+</html> 
